@@ -1,0 +1,12 @@
+<div class="card">
+    <img class="card-img-top" src="https://i5.walmartimages.ca/images/Large/094/514/6000200094514.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+        <h4 class="card-title">{{ product.name }}</h4>
+        <p class="card-text">{{ product.price }}</p>
+        <div class="d-flex justify-content-center align-items-center">
+            <a class="btn btn-primary text-white" (click)="onAddToCard(product)">Add to card</a>
+
+        </div>
+    </div>
+</div>
+<br>

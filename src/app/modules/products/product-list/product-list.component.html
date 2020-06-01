@@ -1,0 +1,9 @@
+<div class="container mt-5">
+    <app-pay></app-pay>
+
+    <div class="row">
+        <div class="col-md-3" *ngFor="let product of (list$ | async)">
+            <app-product-item [product]="product"></app-product-item>
+        </div>
+    </div>
+</div>
